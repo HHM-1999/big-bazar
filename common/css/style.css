@@ -129,20 +129,21 @@ h6 {
     text-align: center;
     border-radius: 50%;
 }
+
 .round-btn a .cart-number::after {
-	content: "0";
-	font-size: 12px;
-	color: #eee;
-	background: #bf8072;
-	border-radius: 50%;
-	position: relative;
-	left: -9px;
-	top: -47px;
-	opacity: 1;
-	width: 22px;
-	display: block;
-	height: 22px;
-	line-height: 20px;
+    content: "0";
+    font-size: 12px;
+    color: #eee;
+    background: #bf8072;
+    border-radius: 50%;
+    position: relative;
+    left: -9px;
+    top: -47px;
+    opacity: 1;
+    width: 22px;
+    display: block;
+    height: 22px;
+    line-height: 20px;
 }
 
 .main-links .round-btn {
@@ -159,7 +160,7 @@ h6 {
 .hero-area img {
     object-fit: cover;
     width: 100%;
-    height: 550px;
+    height: 500px;
 }
 
 /* fashion section */
@@ -406,6 +407,7 @@ a {
     margin: 40px 0;
     background-color: #ead5ce;
 }
+
 .policy-img img {
     object-fit: cover;
     width: 100%;
@@ -424,14 +426,16 @@ a {
     line-height: 20px;
     color: #bf8072;
 }
-.policy-body h5{
-    font-size:35px ;
+
+.policy-body h5 {
+    font-size: 35px;
     margin-bottom: 15px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -.3px;
 }
-.policy-body a span{
+
+.policy-body a span {
     font-size: 12px;
     letter-spacing: 2px;
     margin-bottom: 15px;
@@ -439,4 +443,146 @@ a {
     line-height: 20px;
     color: #000;
     text-decoration: underline;
+}
+
+/* inspirational-post-section */
+.inspirational-post-section {
+    padding: 40px 0;
+}
+
+.post-details {
+    background-color: #f4f4f4;
+    position: relative;
+    top: -40px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    padding: 22px;
+    width: 285px;
+}
+
+.post-details p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    color: #bf8072;
+    margin-bottom: 10px;
+}
+
+.post-details h5 {
+    font-size: 16px;
+    font-weight: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.post-details .post-quote {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #767678;
+    margin-bottom: 5px;
+}
+
+.post-details a {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #767678;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+/* page-section */
+.page-section {
+    margin: 40px 0;
+    background-color: #f8f8f8;
+}
+
+.page-body {
+    display: flex;
+}
+
+.page-icon i {
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+.page-details h5 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    ;
+    color: #000;
+    line-height: 37px;
+    padding-top: 5px;
+}
+
+.page-details p {
+    font-size: 16px;
+    font-weight: 22px;
+}
+
+/*  footer */
+footer {
+    margin: 40px 0;
+    border-top: 1px solid #ccc;
+}
+
+.footer-info-border {
+    border-right: 1px solid #ccc;
+
+}
+
+.footer-area ul {
+    padding-top: 40px;
+}
+
+.footer-info ul li {
+    list-style: none;
+}
+
+.footer-info ul li a h3 {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.footer-info ul li a span {
+    color: #bf8072;
+    font-weight: 600;
+}
+
+.footer-info ul li a p {
+    font-size: 12px;
+    color: #767676;
+    
+}
+
+.social-links {
+    display: flex;
+    margin-top: 35px;
+}
+
+.social-links a {
+    margin-right: 12px;
+    font-size: 12px;
+    color: #333;
+    width: 20px;
+    height: 20px;
+}
+.footer-info ul li a h4 {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 35px;
+    color: #333;
+}
+.shop-link{
+    font-size: 12px;
+    color: #767676;
+    margin-bottom: 10px;
 }
