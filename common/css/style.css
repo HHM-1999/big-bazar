@@ -77,7 +77,6 @@ h6 {
   color: #333;
   padding: 5px;
 }
-
 /* main-header-section */
 .sticky {
   position: fixed;
@@ -85,10 +84,8 @@ h6 {
   width: 100%;
   z-index: 9999;
   transition: 0.2s;
-  box-shadow: 0 0 2px 0 #00000051;
-  background-color: #fff;
+  background-color: #f8f8f8;
 }
-
 .main-header-section .navbar-brand {
   font-weight: 700;
 }
@@ -98,13 +95,12 @@ h6 {
 }
 
 .main-header-section .navbar-nav .nav-item .nav-link {
-  text-transform: uppercase;
-  font-size: 15px;
-  line-height: 22px;
-  font-weight: 400;
-  padding: 12px 20px;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	padding: 10px 25px;
 }
-
 .main-header-section .navbar-expand-lg .navbar-nav .nav-link:hover {
   color: #bf8072;
 }
@@ -158,11 +154,9 @@ h6 {
 }
 
 .hero-area img {
-  object-fit: cover;
-  width: 100%;
-  height: 500px;
+	width: 100%;
+	height: 550px;
 }
-
 /* fashion section */
 .fashion-section {
   padding: 80px 0 40px 0;
@@ -170,32 +164,42 @@ h6 {
 
 .fashion-img {
   background-color: #f8f8f8;
+  overflow: hidden;
 }
 
 .fashion-img .card {
   border-radius: 0;
   border: none;
 }
-
-.fashion-img .card-img-overlay {
-  position: absolute;
-  top: 107px;
-  right: 40px;
-  bottom: 107px;
-  left: 40px;
-  border-radius: 0;
-  text-align: center;
-  background-color: #f4f4f4;
-  padding: 10px 0px;
+.fashion-img img {
+  transform: scale(1);
+  transition: all 0.5s ease;
 }
 
-.fashion-img .card-img-overlay h3 {
+
+.fashion-img img:hover {
+  transform: scale(1.1);
+
+}
+.fashion-img .fashion-img-overlay {
+	position: relative;
+	top: -150px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 0;
+	text-align: center;
+	background-color: #f4f4f4;
+	padding: 10px 0px;
+}
+
+.fashion-img .fashion-img-overlay h3 {
   font-size: 16px;
   padding: 10px 0;
   color: #000;
 }
 
-.fashion-img .card-img-overlay p {
+.fashion-img .fashion-img-overlay p {
   font-size: 14px;
   font-weight: 30px;
   color: #bf8072;
@@ -277,6 +281,9 @@ h6 {
   border: 0;
   text-transform: uppercase;
 }
+.sale-btn:hover{
+  color: #bf8072;
+}
 
 .month-offer-area .sale-img-2 .card {
   border-radius: 0;
@@ -320,7 +327,7 @@ a {
 .category-tab {
   justify-content: center;
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .category-tab .nav-item .nav-link {
@@ -335,7 +342,19 @@ a {
 .category-tab .nav-item .nav-link:hover {
   color: #000;
 }
+.category-img{
+  overflow: hidden;
+}
+.category-img img {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
 
+
+.category-img img:hover {
+  transform: scale(1.1);
+
+}
 .category-img {
   background-color: #efefee;
 }
@@ -421,7 +440,7 @@ a {
 .policy-body p {
   font-size: 14px;
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-weight: 600;
   line-height: 20px;
   color: #bf8072;
@@ -429,7 +448,7 @@ a {
 
 .policy-body h5 {
   font-size: 35px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-weight: 600;
   line-height: 42px;
   letter-spacing: -0.3px;
@@ -438,7 +457,7 @@ a {
 .policy-body a span {
   font-size: 12px;
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-weight: 500;
   line-height: 20px;
   color: #000;
@@ -468,6 +487,18 @@ a {
   letter-spacing: 1.5px;
   color: #bf8072;
   margin-bottom: 10px;
+}
+.post-image{
+  overflow: hidden;
+}
+
+.post-image img {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.post-image  img:hover {
+  transform: scale(1.1);
+
 }
 
 .post-details h5 {
@@ -530,23 +561,29 @@ a {
 footer {
   border-top: 1px solid #ccc;
 }
+.footer-section{
+  border-bottom: 1px solid #ccc;
+}
 .footer-area .col-lg-3 {
   border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+ 
 }
 .footer-area .col-lg-3:last-child {
   border-right: 0;
 }
-/* .footer-info-border {
-  border-right: 1px solid #ccc;
-} */
-
 .footer-area ul {
-  padding-top: 40px;
+	padding: 40px 20px;
 }
 
 .footer-info ul li {
   list-style: none;
+}
+.footer-info ul li a h4:hover{
+ 
+  color: #bf8072;
+}
+.footer-info ul li a P:hover{
+  color: #f3612e;
 }
 
 .footer-info ul li a h3 {
@@ -576,8 +613,23 @@ footer {
   margin-right: 12px;
   font-size: 12px;
   color: #333;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
+}
+.fa-twitter:hover{
+  color:#00acee;
+}
+.fa-youtube:hover{
+  color:  #CD201F;
+}
+.fa-pinterest:hover{
+  color:#c8232c;
+}
+.fa-linkedin:hover{
+  color: #0072b1;
+}
+.fa-facebook-f:hover{
+  color: #3b5998;
 }
 .footer-info ul li a h4 {
   font-size: 14px;
@@ -590,9 +642,11 @@ footer {
   color: #767676;
   margin-bottom: 10px;
 }
+
 .logo-footer img {
-  width: 50%;
-  height: 50%;
+  width: 15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 .footer-copyright {
   padding: 20px 0;
