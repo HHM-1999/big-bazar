@@ -10,3 +10,5 @@ function toggleStickyNavbar() {
     }
 }
 window.addEventListener('scroll', toggleStickyNavbar);
+
+
