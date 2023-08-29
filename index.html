@@ -101,7 +101,7 @@
                                             <li class="round-btn "><a href="#"><i class="fa-solid fa-recycle"></i></a>
                                             </li>
                                             <li class="round-btn">
-                                                <a href="#" >
+                                                <a href="#"  onclick="showSearchBox()" >
                                                     <i class="fa-solid fa-cart-shopping cart-number"
                                                         data-val="50"><span>0</span></i>
                                                 </a>
@@ -116,6 +116,104 @@
             </div>
         </div>
         <!-- main-header-end -->
+        <!-- sidebar-start -->
+        <div id="searchcontainer" class="hidden">
+            <div id="search" class="search_block" style="display: block;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                           <div id="shopping-cart" class="shopping-cart-container">
+                           <div class="row">
+                            <div class="col-lg-6">
+                                <table id="cart-content">
+                                    <thead>
+                                      <tr>
+                                        <th>Products</th>
+                                        <th></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                  </table>
+                            </div>
+                            <div class="col-lg-6 justify-content-end">
+                                <a onclick="hideSearchBox()" class="close-search" href="/"><i
+                                    class="fa fa-times"></i></a>
+                            </div>
+                           </div>
+                            <div class="product-cart">
+                                <div  class="cart-area">
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                       <div class="cart-details">
+                                        <img src="media/category-1-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                                       </div>
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="cart-body">
+                                          <h5>Mens's Fashion</h5>
+                                          <p>$ 17.00</p>
+                                           <div class=" cart-button d-flex justify-content-between ">
+                                           <a href="#"><button>Add to Cart</button></a>
+                                          
+                                           </div>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="product-cart">
+                                <div  class="cart-area">
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                       <div class="cart-details">
+                                        <img src="media/category8-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                                       </div>
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="cart-body">
+                                          <h5>Children's Cotton T-Shirt</h5>
+                                          <p>$ 17.00</p>
+                                           <div class=" cart-button d-flex justify-content-between ">
+                                           <a href="#"><button>Add to Cart</button></a>
+                                          
+                                           </div>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            
+                            <a href="#" id="checkout-btn" class="cart-btn">Checkout</a>
+                            <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
+                          </div>
+                        </div>
+                        
+                           <!-- <div class="sidebar-cart">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <img src="media/category2-removebg-preview.png"
+                                            class="card-img-top img-fluid w-100" alt=" Men's Cotton T-shirt "
+                                            title="Men's Cotton T-shirt ">
+                                        </div>
+                                        <div class="col-lg-7">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                           </div> -->
+                       
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- sidebar-end -->
     </header>
 
     <!-- header-end -->

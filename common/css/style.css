@@ -161,7 +161,118 @@ h6 {
   list-style: none;
   padding-top: 15px;
 }
+/* sidebar section */
+.search_block {
+	background: #ccc;
+	position: fixed;
+	top: 100px;
+	width: 300px;
+	z-index: 9999;
+	height: 100%;
+	left: 60%;
+	transform: translatex(50%);
+}
+.hidden {
+  display: none;
+}
+.sidebar-text{
+  padding: 30px 0;
+}
+.sidebar-text h3{
+  font-size: 25px;
+  color: #ddd;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.shopping-cart-container{
+  padding: 20px;
+}
+.shopping-cart-container table thead th{
+  padding-bottom: 10px;
+  border-bottom: 2px solid #bf8072;
+}
+.shopping-cart-container table tbody{
+  padding-bottom: 4em;
+}
+.cart-btn{
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  background-color: #141926;
+}
+.cart-btn:hover{
+  color: #f3612e;
+}
+.total-container{
+  text-align: center;
+}
+.product-cart{
+  margin: 15px 0;
+  border: 1px solid #bf8072;
+}
+.cart-area {
+	background-color: #ccc;
+	padding-top: 15px;
+}
+.cart-button{
+  margin-bottom: 15px;
+}
+.cart-button button{
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f8f8f8;
+    background-color: #bf8072;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+.cart-button button:hover{
+  background-color: #000;
+}
+.cart-area:hover  .cart-body h5{
+  color: #f3612e;
+}
+.cart-body h5 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 5px;
+}
+.cart-body p{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 15px;
+}
+.cart-details {
+	overflow: hidden;
+	margin: 20px 0px;
+}
+.cart-details img{
+  transform: scale(1);
+  transition: all 0.5s ease;
+  
+}
+.cart-details img:hover  {
+  transform: scale(1.1);
 
+}
+.close-search{
+    font-size: 14px;
+    padding-left: 90px;
+    color: #333;
+    line-height: 20px;
+}
+.close-search:hover{
+  color: #B01E;
+}
 /* main section */
 /* hero section */
 .hero-section {
